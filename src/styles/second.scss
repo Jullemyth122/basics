@@ -1,0 +1,70 @@
+/* Button.css */
+.custom-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+/* TextField.css */
+.custom-textfield {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    width: 200px;
+}
+
+.round-border {
+    border-radius: 10px;
+}
+
+.green-border {
+    color: #fff;
+    border-bottom: 3px solid black;
+    border-radius: 10px;
+    outline: none;
+    width: 200px;
+    padding: 8px;
+}
+.green-border::placeholder {
+    color: #fff;
+}
+
+/* H2.css */
+h2 {
+    text-align: center;
+}
+
+/* App.css */
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.component-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.circular-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.square-rounded-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 10px;
+}
